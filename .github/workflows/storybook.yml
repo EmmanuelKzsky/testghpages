@@ -15,6 +15,5 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.STORYBOOK_TOKEN }}
           FOLDER: dist/storybook/shared-components # The folder that the build-storybook script generates files.
           CLEAN: true # Automatically remove deleted files from the deploy branch
