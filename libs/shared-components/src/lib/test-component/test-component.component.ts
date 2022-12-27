@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./test-component.component.scss'],
 })
 export class TestComponentComponent {
-  temp = 3
+  temp = 1
 }
