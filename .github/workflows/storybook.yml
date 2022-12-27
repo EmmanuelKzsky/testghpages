@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2
+        with:
+          ref: main
       - name: Install and Build 🔧
         run: | # Install npm packages and build the Storybook files
           npm install
