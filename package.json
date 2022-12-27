@@ -4,7 +4,9 @@
   "license": "MIT",
   "scripts": {
     "ng": "nx",
-    "postinstall": "node ./decorate-angular-cli.js"
+    "postinstall": "node ./decorate-angular-cli.js",
+    "storybook:shared": "npx nx storybook shared-components",
+    "build-storybook:shared": "ng run shared-components:build-storybook"
   },
   "private": true,
   "dependencies": {
